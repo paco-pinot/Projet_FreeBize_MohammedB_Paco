@@ -6,7 +6,9 @@
 @import "./modules/layouting";
 @import "./modules/spacing_utility";
 @import "./modules/text_utility";
-
+// import Paco
+@import "./modules/background-image-navbar.scss";
+// Fin import Paco
 * {
     box-sizing: border-box;
 }
