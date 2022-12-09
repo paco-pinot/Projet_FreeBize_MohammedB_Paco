@@ -72262,7 +72262,11 @@ textarea.form-control-lg {
 }
 @media (max-width: 640px) {
   .marginRespCaroussel {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 10px;
+  }
+  .sm-display-none {
+    display: none;
   }
 }
 * {
