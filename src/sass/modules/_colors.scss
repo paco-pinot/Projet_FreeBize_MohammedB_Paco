@@ -1,0 +1,34 @@
+$colors : (
+    "bluenight": rgba(54, 59, 71, 255),
+    "bluenuit": #00004c,
+    "bluenuit_trans": #3f3f78,
+    "blueflash": #0000ff,
+    "roseviolent": #ee0979,
+    "black": black,
+    "rougevampire": #f32853,
+    "greywhat": #8993a4,
+    "beige": #f6f6f6,
+    "blackout": #323037,
+    "greygo": #e3e3e3,
+    "greyyouth": #aaaaaa,
+    "sun": #bd5d38,
+    "white": white,
+    "grayshade": #495057
+);
+
+// @each $color, $value in $theme-colors {
+//     $color-rgb: to-rgb($value);
+//     .text-bg-#{$color} {
+//       color: color-contrast($value) if($enable-important-utilities, !important, null);
+//       background-color: RGBA($color-rgb, var(--#{$prefix}bg-opacity, 1)) if($enable-important-utilities, !important, null);
+//     }
+//   }
+
+@each $color, $value in $colors {
+    .text-color-#{$color} {
+      color: #{$value};
+    }
+    .bg-#{$color} {
+        background-color: #{$value};
+    }
+}

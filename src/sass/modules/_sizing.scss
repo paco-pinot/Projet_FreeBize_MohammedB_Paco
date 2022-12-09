@@ -1,0 +1,74 @@
+.width-auto {
+    width: auto;
+}
+
+// In pixels
+@for $i from 1 through 1281 {
+    .width-#{$i}px {
+        width: #{$i}px;
+    }
+    .height-#{$i}px {
+        height: #{$i}px;
+    }
+    .min-width-#{$i}px {
+        min-width: #{$i}px;
+    }
+    .min-height-#{$i}px {
+        min-height: #{$i}px;
+    }
+}
+
+// In percents
+@for $i from 1 through 101 {
+    .width-#{$i}p {
+        width: #{$i}#{'%'};
+    }
+    .height-#{$i}p {
+        height: #{$i}#{'%'};
+    }
+    .min-width-#{$i}p {
+        min-width: #{$i}#{'%'};
+    }
+    .min-height-#{$i}p {
+        min-height: #{$i}#{'%'};
+    }
+}
+
+
+// MOBILUS
+
+@media (max-width: 640px) {
+    .sm-width-auto {
+        width: auto;
+    }
+
+    // In pixels
+    @for $i from 1 through 1281 {
+        .sm-width-#{$i}px {
+            width: #{$i}px;
+        }
+        .sm-height-#{$i}px {
+            height: #{$i}px;
+        }
+        .sm-min-width-#{$i}px {
+            min-width: #{$i}px;
+        }
+        .sm-min-height-#{$i}px {
+            min-height: #{$i}px;
+        }
+    }
+    @for $i from 1 through 101 {
+        .sm-width-#{$i}p {
+            width: #{$i}#{'%'};
+        }
+        .sm-height-#{$i}p {
+            height: #{$i}#{'%'};
+        }
+        .sm-min-width-#{$i}p {
+            min-width: #{$i}#{'%'};
+        }
+        .sm-min-height-#{$i}p {
+            min-height: #{$i}#{'%'};
+        }
+    }
+}

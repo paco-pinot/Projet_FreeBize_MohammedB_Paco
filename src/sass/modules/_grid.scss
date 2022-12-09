@@ -1,0 +1,9 @@
+.container-960px {
+    width: 960px;
+}
+
+@media (max-width: 640px) {
+    .sm-container-960px {
+        max-width: 960px;
+    }
+}

@@ -1,0 +1,57 @@
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-sans {
+    font-family: sans-serif;
+}
+
+@for $i from 1 through 100 {
+    .font-size-#{$i}rem {
+        font-size: #{$i}rem;
+    }
+}
+
+@for $i from 1 through 100 {
+    @for $j from 1 through 10 {
+        .font-size-#{$i}-#{$j}rem {
+            font-size: #{$i}#{'.'}#{$j}rem;
+        }
+    }
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.line-height-1-5 {
+    line-height: 1.5;
+}
+
+.line-height-1-6 {
+    line-height: 1.6
+}
+
+.line-height-1-7 {
+    line-height: 1.7
+}
+
+.line-height-1-8 {
+    line-height: 1.8
+}
+
+.line-height-2 {
+    line-height: 2;
+}

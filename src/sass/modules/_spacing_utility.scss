@@ -1,0 +1,56 @@
+.margin-auto {
+    margin: auto;
+}
+
+.margin-x-auto {
+    margin: 0 auto 0 auto;
+}
+
+@for $i from 1 through 100 {
+    .margin-#{$i}px {
+        margin: #{$i}px;
+    }
+    .margin-x-#{$i}px {
+        margin-left: #{$i}px;
+        margin-right: #{$i}px;
+    }
+    .margin-y-#{$i}px {
+        margin-top: #{$i}px;
+        margin-bottom: #{$i}px;
+    }
+    .margin-left-#{$i}px {
+        margin-left: #{$i}px;
+    }
+    .margin-right-#{$i}px {
+        margin-right: #{$i}px;
+    }
+    .margin-top-#{$i}px {
+        margin-top: #{$i}px;
+    }
+    .margin-bottom-#{$i}px {
+        margin-bottom: #{$i}px;
+    }
+    .padding-#{$i}px {
+        padding: #{$i}px;
+    }
+    .padding-x-#{$i}px {
+        padding-left: #{$i}px;
+        padding-right: #{$i}px;
+    }
+    .padding-y-#{$i}px {
+        padding-top: #{$i}px;
+        padding-bottom: #{$i}px;
+    }
+    .padding-left-#{$i}px {
+        padding-left: #{$i}px;
+    }
+    .padding-right-#{$i}px {
+        padding-right: #{$i}px;
+    }
+    .padding-top-#{$i}px {
+        padding-top: #{$i}px;
+    }
+    .padding-bottom-#{$i}px {
+        padding-bottom: #{$i}px;
+    }
+}

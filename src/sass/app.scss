@@ -1,0 +1,12 @@
+@import "../../src/sass/modules/fonts/font_aw";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./modules/colors";
+@import "./modules/sizing";
+@import "./modules/borders";
+@import "./modules/layouting";
+@import "./modules/spacing_utility";
+@import "./modules/text_utility";
+
+* {
+    box-sizing: border-box;
+}

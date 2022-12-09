@@ -1,0 +1,14 @@
+@for $i from 1 to 100 {
+    .border-radius-#{$i}px {
+        border-radius: #{$i}px;
+    }
+    .border-solid-#{$i}px {
+        border: solid #{$i}px #e3e3e3;
+    }
+}
+
+// TODO(): puts this thing in a loop
+
+.border-color-suntrans {
+    border-color: #ca7d60;
+}
