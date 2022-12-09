@@ -43622,7 +43622,7 @@ textarea.form-control-lg {
   min-height: 101%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   .sm-width-auto {
     width: auto;
   }
@@ -61456,7 +61456,7 @@ textarea.form-control-lg {
      object-fit: cover;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   .sm-display-inline {
     display: inline;
   }
@@ -72242,6 +72242,22 @@ textarea.form-control-lg {
 
 .line-height-2 {
   line-height: 2;
+}
+
+@media (max-width: 960px) {
+  .sm-width-100vh {
+    width: 100vh !important;
+  }
+  .sm-height-100vw {
+    height: 100vw !important;
+  }
+}
+.width-100vh-960px-divide-3-gap-32px {
+  width: calc((100vw - (100vw - 960px)) / 3 - 32px);
+}
+
+.height-100vh-960px-divide-3-gap-32px {
+  height: calc((100vw - (100vw - 960px)) / 3 - 32px);
 }
 
 * {
