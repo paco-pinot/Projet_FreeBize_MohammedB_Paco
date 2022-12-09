@@ -59,16 +59,16 @@
     }
     @for $i from 1 through 101 {
         .sm-width-#{$i}p {
-            width: #{$i}#{'%'};
+            width: #{$i}#{'%'}#{" !important"};
         }
         .sm-height-#{$i}p {
-            height: #{$i}#{'%'};
+            height: #{$i}#{'%'}#{" !important"};
         }
         .sm-min-width-#{$i}p {
-            min-width: #{$i}#{'%'};
+            min-width: #{$i}#{'%'}#{" !important"};
         }
         .sm-min-height-#{$i}p {
-            min-height: #{$i}#{'%'};
+            min-height: #{$i}#{'%'}#{" !important"};
         }
     }
 }
