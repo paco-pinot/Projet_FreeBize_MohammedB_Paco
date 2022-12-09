@@ -21482,6 +21482,14 @@ textarea.form-control-lg {
   background-color: #495057;
 }
 
+.text-color-lightsea {
+  color: #E7F1FD;
+}
+
+.bg-lightsea {
+  background-color: #E7F1FD;
+}
+
 .width-auto {
   width: auto;
 }
