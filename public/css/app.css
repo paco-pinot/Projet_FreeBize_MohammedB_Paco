@@ -21482,6 +21482,22 @@ textarea.form-control-lg {
   background-color: #495057;
 }
 
+.text-color-lightsea {
+  color: #E7F1FD;
+}
+
+.bg-lightsea {
+  background-color: #E7F1FD;
+}
+
+.text-color-deepocean {
+  color: #106EEA;
+}
+
+.bg-deepocean {
+  background-color: #106EEA;
+}
+
 .width-auto {
   width: auto;
 }
