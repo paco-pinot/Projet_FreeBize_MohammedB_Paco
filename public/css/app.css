@@ -43614,7 +43614,7 @@ textarea.form-control-lg {
   min-height: 101%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   .sm-width-auto {
     width: auto;
   }
@@ -61448,7 +61448,7 @@ textarea.form-control-lg {
      object-fit: cover;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   .sm-display-inline {
     display: inline;
   }
@@ -72241,6 +72241,30 @@ textarea.form-control-lg {
   background-position: center;
 }
 
+.filter {
+  filter: brightness(50%);
+}
+
+.carouselExampleControls {
+  background-image: linear-gradient(to right, rgba(250, 0, 0, 0) 0px, rgba(255, 0, 0, 0.5) 100%) !important;
+}
+
+@media (max-width: 960px) {
+  .sm-font-size-1-4rem {
+    font-size: 1.4rem;
+  }
+  .marginRespCaroussel {
+    margin-bottom: 5%;
+  }
+  .sm-text-align-center {
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .marginRespCaroussel {
+    margin-bottom: 10px;
+  }
+}
 * {
   box-sizing: border-box;
 }
