@@ -72244,6 +72244,40 @@ textarea.form-control-lg {
   line-height: 2;
 }
 
+.bgNavbar {
+  background-image: url("../../../public/img/hero-bg.jpg");
+  background-position: center;
+}
+
+.filter {
+  filter: brightness(50%);
+}
+
+.carouselExampleControls {
+  background-image: linear-gradient(to right, rgba(250, 0, 0, 0) 0px, rgba(255, 0, 0, 0.5) 100%) !important;
+}
+
+@media (max-width: 960px) {
+  .sm-font-size-1-4rem {
+    font-size: 1.4rem;
+  }
+  .marginRespCaroussel {
+    margin-bottom: 5%;
+  }
+  .sm-text-align-center {
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .marginRespCaroussel {
+    margin-bottom: 0px;
+    font-size: 10px;
+  }
+  .sm-display-none {
+    display: none;
+  }
+}
+
 @media (max-width: 960px) {
   .sm-width-100vh {
     width: 100vh !important;
