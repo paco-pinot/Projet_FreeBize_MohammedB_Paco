@@ -21490,6 +21490,14 @@ textarea.form-control-lg {
   background-color: #E7F1FD;
 }
 
+.text-color-deepocean {
+  color: #106EEA;
+}
+
+.bg-deepocean {
+  background-color: #106EEA;
+}
+
 .width-auto {
   width: auto;
 }
@@ -72226,6 +72234,11 @@ textarea.form-control-lg {
 
 .line-height-2 {
   line-height: 2;
+}
+
+.bgNavbar {
+  background-image: url("../../../public/img/hero-bg.jpg");
+  background-position: center;
 }
 
 * {
